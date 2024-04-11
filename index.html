@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 21-03-</title>
+    <!-- link y permite importar los estilos desde el archivo -->
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body >
+    <nav class="menu">
+        <ul>
+            <li><a href="">Inicio</a></li>
+            <li><a href="#info">Informacion</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#Contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <header class="fondo">
+        <div class="text-center">
+            <<h1 class="texto-60">Repasando Estilos CSS></h1>
+            <h2 class="texto-40">Repasando diferentes formas</h2>
+        </div>
+    </header>
+    <section class="info" id="info">
+        <div class="contenedor">
+        <h1 class="titulo-info">Informacion Importante</h1>
+        <p class="parrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae laudantium iure, vero libero inventore facilis quas est adipisci, quisquam et molestiae vel vitae architecto labore perspiciatis. In distinctio debitis expedita.
+        </p>
+        </div>
+    </section>
+    <section class="contenedor" id="servicios">
+        <h1>Servicios</h1>
+        <div class="contenedor-card">
+
+            <article class="card" id="">
+                <div class="margen-icono"></div>
+                <i class="bi bi-filetype-html"></i>
+                <h3>HTML</h3>
+                <p>Informacion relevante sobre HTML</p>
+                <a class="boton" href="https://www.w3schools.com/html/" target="_blank">Leer mas</a>
+            </article>
+
+            <article class="card">
+                <div class="margen-icono"></div>
+                <i class="bi bi-filetype-css"></i>
+                <h3>CSS</h3>
+                <p>Informacion relevante sobre CSS</p>
+                <a class="boton" href="https://www.w3schools.com/css/" target="_blank">Leer mas</a>
+            </article>
+
+            <article class="card">
+                <div class="margen-icono">
+                </div>
+                <i class="bi bi-filetype-java"></i>
+                <h3>JS</h3>
+                <p>Informacion relevante sobre JavaScript que debe saber</p>
+                <a class="boton" href="https://www.w3schools.com/js/" target="_blank">Leer mas</a>
+            </article>
+        </div>
+    </section>
+    <section class="galeria" id="galeria">
+        <div class="contenedor">
+            <div class="contenedor-galeria">
+                <img src="1.jpg" alt="">
+                <img src="2.png" alt="">
+                <img src="3.webp" alt="">
+                <img src="4.jpeg" alt="">
+                <img src="5.png" alt="">
+                <img src="6.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="contacto" id="Contacto">
+        <div class="contenedor">
+            <h2 class="titulo-info">Contactanos</h2>
+            <form class="formulario">
+                <input type="text" name="nombre" id="nombre" class="input input-ancho" placeholder="Ingresa tu nombre">
+                <input type="email" name="correo" id="correo" class="input input-ancho" placeholder="Ingresa tu correo">
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="input textarea-ancho" placeholder="Ingresa tu mensaje"></textarea>
+                <input type="reset" value="Limpiar" class="boton input-ancho">
+                <input type="submit" value="Enviar" class="boton input-ancho">
+            </form>
+        </div>
+</body>
+
+<!-- El footer debe llevar , direccion, correo, email, fono y su nombre, cada uno de los elemenetos debe tener icono al costado -->
+
+<footer class="">
+    <div class="contenedor">
+        <div class="footer">
+            <h3>Contacto</h3></br>
+            <p><i class="bi bi-file-earmark-person"></i></i> Manuel Arias</p>
+            <p><i class="bi bi-telephone-outbound"></i></i> +569 50069340</p>
+            <p><i class="bi bi-envelope"></i> ignacioaa1996@gmail.com</p>
+            <p><i class="bi bi-geo-alt"></i> Santiago, Chile</p>
+</footer>
+
+</html>
